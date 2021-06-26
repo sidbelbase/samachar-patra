@@ -35,7 +35,7 @@ EMAIL_HOST_PASSWORD = '<paste password>'
 python3 manage.py runserver
 ```
 
-#### URL Routes
+### URL Routes
 
 - Main Subscribing page >> [http://localhost:8000/subscribe](http://localhost:8000/subscribe)
 
