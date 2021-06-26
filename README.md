@@ -2,6 +2,10 @@
 
 A simple newsletter subscription based module with email verification.
 
+<span align="center">
+<img src="media/mainpage.png" width="100%" height="auto">
+</span><br>
+
 ### Prerequisites
 
 - Python 3.7 or higher (tested in version 3.7.10)
