@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'newsletter/main.css' %}">
+    <title>Subscribe to Newsletter!</title>
+</head>
+<body>
+<section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <form method="POST">
+                        {% csrf_token %}
+                            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <div class="input-group">
+                            {{ form }}
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">Subscribe Now</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

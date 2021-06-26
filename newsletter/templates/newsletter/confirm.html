@@ -1,0 +1,12 @@
+{% autoescape off %}
+Hey {{ email }},
+To confirm your subscription please click the link below:
+
+{{ protocol }}://{{ domain }}{% url 'confirm_signup' token=token %}
+
+If clicking the link above doesn't work, please copy and paste the URL in a new browser
+window instead.
+
+Sincerely,
+Newsletter Team
+{% endautoescape %}
