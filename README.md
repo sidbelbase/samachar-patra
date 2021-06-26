@@ -1,4 +1,4 @@
-## SamacharPatra (समाचार पत्र)
+## SamacharPatra (समाचारपत्र)
 
 A simple newsletter subscription based module with email verification.
 
@@ -27,9 +27,12 @@ EMAIL_HOST_PASSWORD = '<paste password>'
 
 - Run the following command in terminal
 
-  `python3 manage.py runserver`
+```bash
+python3 manage.py runserver
+```
 
-#### Url Routes
+#### URL Routes
 
-- Landing to the subscribing page
-  [http://localhost:8000/subscribe](http://localhost:8000/subscribe)
+- Main Subscribing page >> [http://localhost:8000/subscribe](http://localhost:8000/subscribe)
+
+### Made with ❤️ in Nepal.
